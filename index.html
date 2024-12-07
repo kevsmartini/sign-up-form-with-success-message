@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+
+</head>
+<body>
+
+  <div class="container">
+    <div class="newsletter-container">
+      <main class="sign-up-section">
+        <h1>  Stay updated!
+        </h1>
+        <p class="text">  Join 60,000+ product managers receiving monthly updates on:
+        </p>
+        <ul>
+          <li>  Product discovery and building what matters
+          </li>
+          <li>  Measuring to ensure updates are a success
+          </li>
+          <li>  And much more!
+          </li>
+        </ul>
+
+        <form class="sign-up-form" action="">
+          <section class="email-validation">
+            <label id="Email-address" for="  Email address
+            ">Email address</label>
+            <label class="invalid-email" for="invalid email">Valid email requiered</label>
+          </section>
+
+          <input id="email-input" class="email-input" type="text" placeholder="  email@company.com
+          " autofocus>
+         
+         <input class="btn-input" type="submit" value="Subscribe to monthly newsletter!" />
+  
+        </form>
+
+
+      </main>
+
+      <picture class="sign-up-img">
+        <source class="mobile-illustration" media="(max-width:800px)" srcset="assets/images/illustration-sign-up-mobile.svg">
+        <img src="assets/images/illustration-sign-up-desktop.svg" alt="">
+      </picture>
+    </div>
+
+    <section class="newsletter-success">
+      <div class="mobile-success-text">
+        <img src="assets/images/icon-list.svg" alt="">
+        <h2>Thanks for subscribing!</h2>
+        <p>A confirmation email has been sent to <span class="user-email">ash@loremcompany.com.</span> 
+          Please open it and click the button inside to confirm your subscription.</p>
+  
+      </div>
+        <button class="dismiss-messsage"> Dismiss message </button>
+    </section>
+  </div>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+  <script src="script.js"></script>
+
+</body>
+</html>
